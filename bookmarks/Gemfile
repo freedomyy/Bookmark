@@ -41,6 +41,13 @@ group :development, :test do
 end
 # user and authentication
   gem 'devise'
+# ZURB foundation
+  gem 'zurb-foundation'
+# form
+  gem 'simple_form'
+# pagination
+  gem 'kaminari'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
